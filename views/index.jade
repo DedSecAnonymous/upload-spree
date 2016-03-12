@@ -3,8 +3,8 @@ extends layout
 block content
     .panel.panel-default
         .panel-body
-            h1= title
-            p #{title} - The ultimate doc to TeX convertor
+            h1 TDP submission
+            p # - The ultimate TDP submission controllers
             hr
             form#uploadForm(enctype='multipart/form-data', action='/convert', method='post')
                 input.btn-block(type='file', name='userDoc')

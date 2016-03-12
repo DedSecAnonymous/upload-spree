@@ -22,7 +22,7 @@ function run_cmd(cmd, args, cb, end) {
 /* GET home page. */
 router.get('/', function(req, res, next) {
 	res.json({
-		error: 'not implemented'
+		error: 'not implemented/nothing uploaded'
 	});
 });
 
@@ -50,7 +50,7 @@ router.post('/', function(req, res) {
 
 		//process files here
 		var xconvert = new run_cmd(
-			sourceDir + 'doctex.sh', [appDir + req.file.originalname, outDir],
+			sourceDir + 'tdp.sh', [appDir + req.file.originalname, outDir],
 			function(me, buffer) {
 				me.stdout += buffer.toString()
 			},

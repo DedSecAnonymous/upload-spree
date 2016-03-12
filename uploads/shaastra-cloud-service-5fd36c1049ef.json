@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shaastra-cloud-service",
+  "private_key_id": "5fd36c1049efdfa2b135fb5c0bd1b6e6ba8c72d8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCkXhZnILsJhaPz\nRpUhb6VvHus5+5Aw/GzA6/MnFTExZ+E86UdQJwlrumU5liT8FOgR5RE78WKjRWi4\nmrA/fFT/IaCBtLfLCcdodHxWNTVOAgQJGJNnUcj/ioboBJDYRQBFJlq1mt+QewzI\nZaIff23pMtY0eDhw1EdegxvrBTDEBlCXglsAa3nSQ8TwXqBrN/VOw2VNyeWxjF9/\nnaQ0tLwtkEaSQCmnuwW9tD64Y9Z6Oo/4+pZe4xpf51MkoZaE10VX1AKVlgOCK2gB\nhipXHxgGxPFW/J6mfluAJJTGQ9mbkH3VXnET3V2Hh+7AwHaP0IhWpJ19Qh5DtCE8\nPuJG8eu1AgMBAAECggEARMwY5mt9vfuQ5xeo/gjEHuG7JVbVQJu3TXy1Fqu5HmvT\ni/I8ZiEgwVWQXu0oZ9a8WBkgAI4Fcj9wGKyujrQUw4EotIGW2EYsj90J2e+FczRG\nyiPeNsW1srghxWV71vnypf7qws6jOs82R366wCJPN+eOXwHe5eMESFvqSJGwmqs4\nGIockHB24Z0kSwIQ9Tvtlqs3lgo0Us0G9G+rQgVzIoey76vvsSLem6X+dlrfkNTv\nYzEsMApN6ADEWU98RNs5FtjQ9y0ABqssRu6/7+K5aBwKWhOeiKv+Iz1K1OGuFb3j\nwC4gdKIcEQqlYRAkQ7lc5bfGDXsL/Cpn2QqE8kcNNQKBgQDwXv0EBhshNtKvb+Rx\n7nb3zm7tXQLnmWxQHgqM+1hM7scJjArUxn2kUiGFnNMbco9nERqwljEV5sLG78DH\njDVMCNOK0LLMyceLIdkCFcFx29jwjAoGa/dK77eX3T+0nqiBawbVR0S5QcpqsPuA\nTd0ZDXYMaXfp8IZEnlJbZB8+jwKBgQCvDgJk9kqQ+Yzu3SexHvaWpsgdVC4HhSAq\nPr/JdYyUWfuJRtZN+R3NPj+1ms+au59mFqc6IRHTU0sM4eeFwSfbx6dCmhRk6PH8\n8HJYUjbSuPyJNtmwl9Q/DnnULBWKZBiRAcXKpCwBOQg3+fRXC9qV9YJ8m9aVk7W0\npD95bjHTewKBgQCW1bSF4uMBW6qnxlofGFn1NMgtEPGyrXbna4KJZ2vIkwm5NvTR\nAmFzTMqWUouyrJfKQFR0PTs+GBlfxrE9RwFm3h8I+99HXNNnvmyzvz0tmpyujeH4\nl6WNk5GsrXy9ddYdqDCYg2lfqyY+/yJDKBk3EFhkf4Zs+a73vjXF/bURhwKBgQCm\nfRJ153A/tbf+LcPkRuiLm4/TpQ4qBMj0pL1O40eSiIoco4yKmBVp8HwzQkuUhEEz\nnPPq6yzC6gME+41wvqYj9xzy0Qv4dTxBLoXxzi9p9pnn/ozH0X8BgckIq+zItC5R\nK3hsI/veJdnVMxrZ9uIroVY7IRPTKqq0ZUohOVaWJQKBgQCbyqP4TlKNZoShgaTB\nHDmyND+LAbbKGyrEP4mWMfIP3sETgOnnnwKI4Q3Y2GHhud7TPtukHwUFWRZN6aMQ\nUgD+OmZyVWo2bAc/gwep8gc0mTL4NJh6/Fvo62xTjr3XDunEopHd37u05wGkguu0\nSGQLaKGy5wnFspjpfA/20MUXSg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "shaastra-cloud-service@appspot.gserviceaccount.com",
+  "client_id": "111860044233050115460",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shaastra-cloud-service%40appspot.gserviceaccount.com"
+}
