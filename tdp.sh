@@ -6,8 +6,8 @@
 echo 'input: ' $1
 echo 'out dir: ' $2
 
-var1=${1/'docx'/'odt'}
-var2=${1/'docx'/'docx.tex'}
+var1 = $1
+var2 = $2
 
-loffice --headless --convert-to odt --outdir $2 $1
-w2l $var1 $var2 
+# process your file here and do anything using linux libraries. Sky is the limit
+mv var1 var2 
