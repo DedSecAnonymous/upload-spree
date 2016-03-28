@@ -9,7 +9,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var convert = require('./routes/convert.js');
 var result = require('./routes/result.js');
-
+var view = require('./routes/view.js')
 var app = express();
 
 // view engine setup
@@ -28,6 +28,7 @@ app.use('/', routes);
 app.use('/users', users);
 app.use('/convert', convert);
 app.use('/result', result);
+app.use('/view', view);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

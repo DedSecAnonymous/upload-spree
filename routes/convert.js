@@ -56,12 +56,15 @@ router.post('/', function(req, res) {
 			},
 			function() {
 				console.log(xconvert.stdout);
+				var file = appDir + req.file.originalname;
+				console.log("file");
+				console.log(file);
 				//echo outfile
 				res.json({
-					message: 'uploaded',
+					message: 'uploaded and now download using the id',
 					result_url: '/result?id=' + req.file.originalname + ''
 				});
-				//res.redirect('/result?id=' + req.file.originalname + '.tex');
+				//res.download(file); 
 			}
 		);
 

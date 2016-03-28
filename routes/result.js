@@ -11,39 +11,10 @@ router.get('/', function(req, res, next) {
 	console.log(appDir);
 	if (_.has(req.query, 'id') && req.query.id) {
 		var filename = appDir + req.query.id;
-		fs.stat(filename, function(err, stats) {
-			if (err) {
-				console.log(err);
-				res.json({
-					error: err
-				});
-			} else if (err == null) {
-				//res.download(filename);
-				/*fs.readFile(filename, 'utf8', function(err, data) {
-					if (err)
-						console.log(err);
-					res.setHeader('Content-Type', 'text/html');
-					res.end(data);
-				});*/
-
-				fs.readFile(filename, 'utf8', function(err, data) {
-					if (err)
-						console.log(err);
-					else {
-						res.render('tex_render', {
-							title: 'TDP ',
-							filename: req.query.id,
-							
-						});
-					}
-				});
-
-
-			} else
-				res.json({
-					error: 'file not available'
-				});
-		});
+		console.log("filename");
+		console.log(filename);
+		res.download(filename);
+		
 	} else {
 		res.json({
 			error: 'no id parameter specified'
