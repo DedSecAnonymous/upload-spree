@@ -1,7 +1,0 @@
-npm install -g monaca
-monaca login
-monaca create sampleproj
-
-if you get an error which has "EACCESS" in any line:
-	sudo chown -R $USER ~/.npm
-	sudo chown -R $USER /usr/local

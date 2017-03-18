@@ -11,3 +11,4 @@ var2 = $2
 
 # process your file here and do anything using linux libraries. Sky is the limit
 mv var1 var2 
+python micro.py
