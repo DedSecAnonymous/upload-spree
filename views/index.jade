@@ -3,8 +3,9 @@ extends layout
 block content
     .panel.panel-default
         .panel-body
-            h1 TDP submission
-            p # - The ultimate TDP submission controllers
+            h1  Deep Brain AI
+            p #  A deep learning application that will perform semantic segmentation on CT Volumes of Abdomen to detect Parenchyma 
+            p # This product will help Doctors and Radiologists to reduce the time taken for segmentation of these CT Volumes from 2-3 hours to a couple of minutes.
             hr
             form#uploadForm(enctype='multipart/form-data', action='/convert', method='post')
                 input.btn-block(type='file', name='userDoc')
